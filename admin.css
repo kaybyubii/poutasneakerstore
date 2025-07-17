@@ -1,0 +1,47 @@
+a{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+body {
+    background: url("./img/Porter-Robinson_VS_1.jpg");
+    background-size: 150%;
+    font-family: "Lato", sans-serif;
+}
+table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffd3fb;
+    -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.5);
+}
+th {
+    border: 1px solid #721037;
+    padding: 12px;
+    background-color: #c71a94;
+    color: white;
+}
+td {
+    border: 0.5px solid #111111;
+}
+h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+.adminButton {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 50;
+    color: white;
+    border: 1px solid #547da7;
+    background-color: #952b57;
+    cursor: pointer;
+}
+
+.adminButton:hover {
+    background-color: white;
+    color: #952b57;
+}
